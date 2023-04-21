@@ -46,6 +46,7 @@ ___
     3. Gateway service (optional)
     4. Movie service
     5. MovieAPI with Main class and main method to run to test the API - the original main task 
+  * It's recommended to use IntelliJ to start the modules and test API.
   * The project makes use of config service repository located here: https://github.com/sf-shtirlitz/config-server-repo-moviesdk to connect ot the MySQL DB
   * In order to run the lotr-movie-service module you need to run MySQL DB either locally (install MySQL as service) or in docker (deploy-mysql.sh file to run in bash is provided) or in cloud (AWS) and adjust the configuration in the .properties file
   * The notes on starting modules - after cloning the repository on your local drive:
